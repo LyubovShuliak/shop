@@ -1,0 +1,20 @@
+.price_filter {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  .price_inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .max-price
+    // .min-price
+    {
+      width: 30px;
+      text-align: center;
+    }
+    .not_valid {
+      color: red;
+      border-color: red;
+    }
+  }
+}
